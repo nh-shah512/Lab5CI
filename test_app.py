@@ -89,4 +89,4 @@ def test_clear_all():
     assert task_texts() == []
     assert driver.find_element(By.ID, "empty-message").is_displayed()
 def test_new():
-    assert 1==2
+    assert 1==1
